@@ -31,3 +31,9 @@ tests/_support/_generated
 
 #vagrant folder
 /.vagrant
+
+/vendor/bower-asset/bootstrap/docs/assets/img
+/vendor/bower-asset/bootstrap/docs/examples/screenshots
+/vendor/codeception/base/tests/data/app
+/vendor/myclabs/deep-copy/doc
+/vendor/swiftmailer/swiftmailer/tests/_samples/files
