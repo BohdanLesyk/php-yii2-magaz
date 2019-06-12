@@ -41,7 +41,8 @@ $config = [
                 [
                     'class' => 'yii\log\FileTarget',
                     'levels' => ['error', 'warning'],
-                    'exportInterval' => 1
+                    'exportInterval' => 1,
+                    'logFile' => '@runtime' . '../errors-global.log'
                 ],
                 [
                     'class' => 'yii\log\EmailTarget',
@@ -52,7 +53,8 @@ $config = [
                         'to' => ['admin@example.com'],
                         'subject' => 'Errors DB on site example.com'
                     ],
-                    'exportInterval' => 1
+                    'exportInterval' => 1,
+                    'logFile' => '@runtime' . '../errors-mail.log'
                 ],
             ],
         ],
